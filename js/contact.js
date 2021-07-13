@@ -54,7 +54,7 @@ function validate()
 
    else
    {
-    alert("You have entered an invalid email address!");
+    alert("Enter a valid email address!");
     document.Feedback.contact_email.focus();
     return false;
    }
