@@ -58,4 +58,9 @@ function validate()
     document.Feedback.contact_email.focus();
     return false;
    }
+var frm = document.getElementsByName('Feedback')[0];
+frm.submit();
+frm.reset();
+return false;
+}
    }
